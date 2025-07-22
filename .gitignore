@@ -1,0 +1,7 @@
+test
+train
+main/action_handler.log
+data_backup
+venv
+__pycache__
+.DS_StoreS
