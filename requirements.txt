@@ -1,8 +1,0 @@
-numpy
-torch
-torchvision
-efficientnet-pytorch
-Pillow
-mediapipe
-opencv-python
-cyndilib
