@@ -5,3 +5,4 @@ efficientnet-pytorch
 Pillow
 mediapipe
 opencv-python
+cyndilib

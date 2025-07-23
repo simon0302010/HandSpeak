@@ -111,7 +111,11 @@ try:
             sender.write_video_async(frame_buffer)
             
             cv.imshow("ASL Detection", frame)
+            # wait for esc or window close
             if cv.waitKey(1) & 0xFF == 27:
+                break
+            # check if window was closed by user
+            if cv.getWindowProperty("ASL Detection", cv.WND_PROP_VISIBLE) < 1:
                 break
 
 finally:
