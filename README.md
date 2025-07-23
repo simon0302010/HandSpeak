@@ -56,7 +56,7 @@ pip install -r requirements.txt
 ### 6. Run the Detection Script
 
 ```bash
-python detect.py
+python main/detect.py
 ```
 
 This will start MediaPipe hand tracking and send frames over NDI.
