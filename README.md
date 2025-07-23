@@ -16,7 +16,7 @@ This project streams ASL hand detection output directly to OBS using NDI and Med
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/HandSpeak.git
+git clone https://github.com/gamerwaves/HandSpeak.git
 cd HandSpeak
 ```
 
