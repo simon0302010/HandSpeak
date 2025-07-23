@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
   <a href="https://shipwrecked.hackclub.com/?t=ghrm" target="_blank">
     <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/739361f1d440b17fc9e2f74e49fc185d86cbec14_badge.png" 
          alt="This project is part of Shipwrecked, the world's first hackathon on an island!" 
@@ -16,7 +16,7 @@ This project streams ASL hand detection output directly to OBS using NDI and Med
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/HandSpeak.git
+git clone https://github.com/gamerwaves/HandSpeak.git
 cd HandSpeak
 ```
 
@@ -29,9 +29,12 @@ python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
+> **Note:**  
+> If you're not using bash, the activation command may vary.
+
 ---
 
-### 3. Install Python Dependencies
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -51,12 +54,15 @@ pip install -r requirements.txt
 - DistroAV is a lightweight NDI display/preview and routing tool.
 - Use the installation instructions on the download page for your os.
 
+> **Note:**  
+> On Linux, you also need to install **ndi-sdk** using your distribution's package manager.
+
 ---
 
 ### 6. Run the Detection Script
 
 ```bash
-python detect.py
+python main/detect.py
 ```
 
 This will start MediaPipe hand tracking and send frames over NDI.
