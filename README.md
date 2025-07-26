@@ -62,26 +62,25 @@ pip install -r requirements.txt
 ### 6. Run the Detection Script
 
 ```bash
-python main/detect.py
+python main.py
 ```
 
-This will start MediaPipe hand tracking and send frames over NDI.
+This will start a TKinter window that will start MediaPipe hand tracking and send frames over NDI.
 
 ---
 
-### 7. Add NDI Source in OBS
+### 7. Edit NDI Source in OBS
 
-- In OBS, click the **➕ (plus)** button under *Sources*.
-- Select **NDI Source**.
+- In OBS, double-click **NDI Source** under *Sources*.
 - Click the small **dropdown arrow** beside the source name.
 - Select the NDI stream titled `ASL-Detection-NDI`.
 
 ---
 
-### 8. Start OBS Virtual Camera
+### 8. Usage
 
-- Click **Start Virtual Camera** in OBS.
 - You can now use this virtual camera in Zoom, Google Meet, Discord, etc.
+Use as a regular camera input.
 
 ---
 
