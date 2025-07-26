@@ -6,3 +6,4 @@ Pillow
 mediapipe
 opencv-python
 ndi-python
+obs-websocket-py
