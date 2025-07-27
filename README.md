@@ -6,6 +6,7 @@
   </a>
 </div>
 
+**NOTICE: Python Ver 3.10 ONLY**
 
 # HandSpeak: Real-Time ASL Detection to OBS Virtual Camera via NDI
 
